@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+     
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      color: #000;
+    }
+
+    nav {
+      background-color: rgb(255, 127, 7);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+
+    #about {
+      padding: 20px;
+    }
+
+    #about h2 {
+      font-size: 24px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    #about p {
+      margin-bottom: 20px;
+    }
+
+    .image-box {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+
+     
+    #projects {
+      padding: 20px;
+    }
+
+    #projects h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .project-box {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+
+    .project-box h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    
+    #contact {
+      padding: 20px;
+    }
+
+    #contact h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    #contact form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #contact form input,
+    #contact form textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #ccc;
+    }
+
+    #contact form button {
+      background-color: rgb(255, 255, 254);
+      color: rgb(15, 14, 14);
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      width: 100px;
+    }
+ 
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f76c09;
+      color: white;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+   
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+   
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+   
+  <section id="about">
+    <h2>About Me</h2>
+    <p>This is a short paragraph about me. I am a web developer passionate about creating functional and aesthetic websites.</p>
+    <div class="image-box">
+      A picture of me
+    </div>
+  </section>
+
+   
+  <section id="projects">
+    <h2>Projects</h2>
+
+    
+    <div class="project-box">
+      <h3>Screenshot of My Personal Blog Project</h3>
+      <div class="image-box">Image here</div>
+      <p>This is a description of my first project. It demonstrates my skills in front-end development.</p>
+      <h4>View Project</h4>
+      <h4>Technologies Used:</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    
+    <div class="project-box">
+      <h3>Screenshot of My Personal Blog Project</h3>
+      <div class="image-box">Image here</div>
+      <p>This is a description of my second project. It focuses on responsive web design and JavaScript functionality.</p>
+      <h4>View Project</h4>
+      <h4>Technologies Used:</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+  </section>
+
+   
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Full Name:</label>
+      <input type="text" placeholder="Your Name" required>
+      <label>Email:</label>
+      <input type="email" placeholder="Your Email" required>
+      <label>Message:</label>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+   
+  <footer>
+    <p>&copy; 2024 My Portfolio</p>
+    <p>Follow me on: 
+      <a href="#">Twitter</a> | 
+      <a href="#">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
